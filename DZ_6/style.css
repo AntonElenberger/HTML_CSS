@@ -194,6 +194,10 @@ body {
     padding-left: 11px;
     padding-right: 22px;
 }
+.featured-menu-link:hover {
+    color:#212121;
+    border-bottom: 3px solid #212121;
+}
 
 .featured-new {
     display: flex;
@@ -212,6 +216,7 @@ body {
     display: block;
 }
 
+
 .featured-products {
     display: flex;
     justify-content: space-between;
@@ -227,7 +232,23 @@ body {
 
 
 
-.circle-button {}
+.circle-button {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+border-radius: 24px;
+background-color: #ffffff;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.circle-button:hover {
+    background-color: #f9f9f9;
+}
+.circle-button:active {
+     box-shadow: 0 0 5px 1px rgba(33, 33, 33, 0.35);
+    position: relative;
+    top: 2px;
+}
 
 
 
@@ -321,4 +342,55 @@ font-weight: 700;
 
 .trending-product {
     margin-bottom: 30px;
+}
+
+.explore:hover {
+    border-bottom: 1px solid #6c6c6c;
+}
+
+
+.featured-poduct-active {
+    background-image: url(img/product-1.jpg);
+    width: 270px;
+    height: 270px;
+    opacity: 0.2;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product-link {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.arrow {
+  color: #212121;
+    opacity: 1;
+    width: 12px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+
+.featured-h4 {
+    color: #212121;
+font-size: 22px;
+font-weight: 700;
+    margin-bottom: 23px;
+    margin-top: 19px;
+}
+
+.featured-p {
+    color: #6c6c6c;
+font-size: 14px;
+font-weight: 300;
+    width: 206px;
 }
